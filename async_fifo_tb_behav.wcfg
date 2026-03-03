@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="async_fifo_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="async_fifo_tb" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="1,374.625 ns"></ZoomStartTime>
+      <ZoomEndTime time="2,155.126 ns"></ZoomEndTime>
+      <Cursor1Time time="3,475.703 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="139"></NameColumnWidth>
+      <ValueColumnWidth column_width="128"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="23" />
+   <wvobject fp_name="/async_fifo_tb/wr_clk" type="logic">
+      <obj_property name="ElementShortName">wr_clk</obj_property>
+      <obj_property name="ObjectShortName">wr_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/async_fifo_tb/wr_rst" type="logic">
+      <obj_property name="ElementShortName">wr_rst</obj_property>
+      <obj_property name="ObjectShortName">wr_rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/async_fifo_tb/wr_en" type="logic">
+      <obj_property name="ElementShortName">wr_en</obj_property>
+      <obj_property name="ObjectShortName">wr_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/async_fifo_tb/wr_data" type="array">
+      <obj_property name="ElementShortName">wr_data[7:0]</obj_property>
+      <obj_property name="ObjectShortName">wr_data[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/async_fifo_tb/full" type="logic">
+      <obj_property name="ElementShortName">full</obj_property>
+      <obj_property name="ObjectShortName">full</obj_property>
+   </wvobject>
+   <wvobject fp_name="/async_fifo_tb/rd_clk" type="logic">
+      <obj_property name="ElementShortName">rd_clk</obj_property>
+      <obj_property name="ObjectShortName">rd_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/async_fifo_tb/rd_rst" type="logic">
+      <obj_property name="ElementShortName">rd_rst</obj_property>
+      <obj_property name="ObjectShortName">rd_rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/async_fifo_tb/rd_en" type="logic">
+      <obj_property name="ElementShortName">rd_en</obj_property>
+      <obj_property name="ObjectShortName">rd_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/async_fifo_tb/rd_data" type="array">
+      <obj_property name="ElementShortName">rd_data[7:0]</obj_property>
+      <obj_property name="ObjectShortName">rd_data[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/async_fifo_tb/empty" type="logic">
+      <obj_property name="ElementShortName">empty</obj_property>
+      <obj_property name="ObjectShortName">empty</obj_property>
+   </wvobject>
+   <wvobject fp_name="/async_fifo_tb/errors" type="array">
+      <obj_property name="ElementShortName">errors[31:0]</obj_property>
+      <obj_property name="ObjectShortName">errors[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/async_fifo_tb/wr_count" type="array">
+      <obj_property name="ElementShortName">wr_count[31:0]</obj_property>
+      <obj_property name="ObjectShortName">wr_count[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/async_fifo_tb/rd_count" type="array">
+      <obj_property name="ElementShortName">rd_count[31:0]</obj_property>
+      <obj_property name="ObjectShortName">rd_count[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/async_fifo_tb/ref_queue" type="array">
+      <obj_property name="ElementShortName">ref_queue[0:15][7:0]</obj_property>
+      <obj_property name="ObjectShortName">ref_queue[0:15][7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/async_fifo_tb/ref_head" type="array">
+      <obj_property name="ElementShortName">ref_head[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ref_head[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/async_fifo_tb/ref_tail" type="array">
+      <obj_property name="ElementShortName">ref_tail[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ref_tail[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/async_fifo_tb/ref_count" type="array">
+      <obj_property name="ElementShortName">ref_count[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ref_count[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/async_fifo_tb/i" type="array">
+      <obj_property name="ElementShortName">i[31:0]</obj_property>
+      <obj_property name="ObjectShortName">i[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/async_fifo_tb/DATA_WIDTH" type="array">
+      <obj_property name="ElementShortName">DATA_WIDTH[31:0]</obj_property>
+      <obj_property name="ObjectShortName">DATA_WIDTH[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/async_fifo_tb/DEPTH" type="array">
+      <obj_property name="ElementShortName">DEPTH[31:0]</obj_property>
+      <obj_property name="ObjectShortName">DEPTH[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/async_fifo_tb/ADDR_WIDTH" type="array">
+      <obj_property name="ElementShortName">ADDR_WIDTH[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ADDR_WIDTH[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/async_fifo_tb/WR_CLK_PERIOD" type="array">
+      <obj_property name="ElementShortName">WR_CLK_PERIOD[31:0]</obj_property>
+      <obj_property name="ObjectShortName">WR_CLK_PERIOD[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/async_fifo_tb/RD_CLK_PERIOD" type="array">
+      <obj_property name="ElementShortName">RD_CLK_PERIOD[31:0]</obj_property>
+      <obj_property name="ObjectShortName">RD_CLK_PERIOD[31:0]</obj_property>
+   </wvobject>
+</wave_config>
